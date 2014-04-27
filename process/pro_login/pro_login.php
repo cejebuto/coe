@@ -2,7 +2,7 @@
 #INCLUIMOS LA CONEXION A LA BASE DE DATOS
 session_start();
 sleep(1);	
-include_once $_SERVER['DOCUMENT_ROOT'].$_SESSION['carproyc'].'/process/pro_connect/pro_connect.php';
+include_once $_SERVER['DOCUMENT_ROOT'].'/process/pro_connect/pro_connect.php';
 $connectdb=connecttodb(); 
 mysqli_set_charset($connectdb, "utf8");
 

@@ -4,7 +4,7 @@
 function connecttodb() { 
 
    #Incluimos el archivo de configuración
-   include_once $_SERVER['DOCUMENT_ROOT'].$_SESSION['carproyc'].'/config.php';
+   include_once $_SERVER['DOCUMENT_ROOT'].'/config.php';
 
 
    if (!($connectdb = mysqli_connect($hostname, $username, $password, $database)

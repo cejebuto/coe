@@ -1,0 +1,1 @@
+<li><a href="index.html"><i class="fa fa-bar-chart-o"></i><span class="hidden-sm text"> Panel de Control</span></a></li>

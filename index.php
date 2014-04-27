@@ -1,6 +1,5 @@
 <?php 
 session_start();
-$_SESSION['carproyc']="";
 require_once 'config.php';?>
 <html>
 	<head>
